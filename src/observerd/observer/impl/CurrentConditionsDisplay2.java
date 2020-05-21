@@ -2,6 +2,7 @@ package observerd.observer.impl;
 
 import observerd.observer.DisplayElement;
 import observerd.subject.impl.WeatherData;
+import observerd.subject.impl.WeatherData2;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -27,7 +28,7 @@ public class CurrentConditionsDisplay2 implements Observer, DisplayElement {
     @Override
     public void update(Observable obs, Object arg) {
         if(obs instanceof WeatherData2){
-
+            
         }
     }
 }
